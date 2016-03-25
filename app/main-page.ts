@@ -1,8 +1,6 @@
 import 'reflect-metadata';
 import {nativeScriptBootstrap} from 'nativescript-angular/application';
-import {Inject, Component, View} from 'angular2/core';
-import { EventData } from "data/observable";
-import { Page } from "ui/page";
+import {Component} from 'angular2/core';
 
 @Component({
 	selector: 'main',
