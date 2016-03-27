@@ -1,5 +1,3 @@
-import 'reflect-metadata';
-import {nativeScriptBootstrap} from 'nativescript-angular/application';
 import {Component} from 'angular2/core';
 
 @Component({
@@ -8,7 +6,15 @@ import {Component} from 'angular2/core';
 		<StackLayout>
 			<Label align="center" text="Hello World!"></Label>
 		</StackLayout>
-	`
+	`,
+	styles: [`
+		label{
+			text-align:center;
+			color:#010101;
+			font-size: 32
+			maring:25 0;
+		}
+	`]
 })
 
 export class MainPage {
