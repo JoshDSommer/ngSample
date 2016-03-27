@@ -7,7 +7,7 @@ var MainPage = (function () {
         core_1.Component({
             selector: 'main',
             template: "\n\t\t<StackLayout>\n\t\t\t<Label align=\"center\" text=\"Hello World!\"></Label>\n\t\t</StackLayout>\n\t",
-            styles: ["\n\t\tlabel{\n\t\t\ttext-align:center;\n\t\t\tcolor:#010101;\n\t\t\tfont-size: 32\n\t\t\tmaring:25 0;\n\t\t}\n\t"]
+            styles: ["\n\t\tlabel{\n\t\t\tfont-size: 45;\n\t\t\thorizontal-align: center;\n\t\t\tpadding-top:60;\n\t\t}\n\t"]
         })
     ], MainPage);
     return MainPage;

@@ -9,10 +9,9 @@ import {Component} from 'angular2/core';
 	`,
 	styles: [`
 		label{
-			text-align:center;
-			color:#010101;
-			font-size: 32
-			margin:25 0;
+			font-size: 45;
+			horizontal-align: center;
+			padding-top:70;
 		}
 	`]
 })
