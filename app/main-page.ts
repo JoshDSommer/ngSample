@@ -12,7 +12,7 @@ import {Component} from 'angular2/core';
 			text-align:center;
 			color:#010101;
 			font-size: 32
-			maring:25 0;
+			margin:25 0;
 		}
 	`]
 })
